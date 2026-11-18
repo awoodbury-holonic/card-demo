@@ -1,0 +1,34 @@
+# Maven and Java build products
+target/
+*.class
+*.jar
+*.war
+*.pid
+*.mv.db
+*.trace.db
+
+# Node and Vite build products
+ui/node_modules/
+ui/dist/
+ui/.vite/
+ui/.vite-temp/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+npm-shrinkwrap.json
+yarn.lock
+pnpm-lock.yaml
+
+# Local environment and editor state
+.env
+.env.*
+!.env.example
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
